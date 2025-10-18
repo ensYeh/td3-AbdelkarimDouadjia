@@ -1,10 +1,11 @@
 package fr.uvsq.cprog.collex;
 
 /**
- * Hello world application.
+ * Main application entry point.
+ * Delegates to DnsApp for DNS simulator functionality.
  */
 public class App {
   public static void main(String[] args) {
-    System.out.println("Hello World!");
+    DnsApp.main(args);
   }
 }
