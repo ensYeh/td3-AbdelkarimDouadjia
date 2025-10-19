@@ -1,8 +1,11 @@
 # Rapport de Tests - Simulateur DNS
 
 **Projet**: td3-AbdelkarimDouadjia  
+
 **Étudiant**: Abdelkarim Douadjia  
+
 **Numéro d'étudiant**: 22506341  
+
 **NC**: 100
 
 ---
@@ -29,17 +32,20 @@ Les phases suivantes ont été exécutées avec succès :
 
 **Total : 69 tests - 100% de réussite**
 
-| Classe de Test | Nombre de Tests | Échecs | Erreurs | Temps |
-|----------------|----------------|--------|---------|-------|
-| AdresseIpTest | 9 | 0 | 0 | 0.331s |
-| AppTest | 1 | 0 | 0 | 0.023s |
-| CommandeTest | 11 | 0 | 0 | 0.389s |
-| DnsAppTest | 3 | 0 | 0 | 0.035s |
-| DnsItemTest | 7 | 0 | 0 | 0.008s |
-| DnsTest | 13 | 0 | 0 | 0.449s |
-| DnsTuiTest | 14 | 0 | 0 | 0.153s |
-| NomMachineTest | 11 | 0 | 0 | 0.021s |
-| **TOTAL** | **69** | **0** | **0** | **1.409s** |
+[options="header"]
+|===
+| Classe de Test | Nombre de Tests | Échecs | Erreurs | Temps
+
+| AdresseIpTest | 9 | 0 | 0 | 0.331s
+| AppTest | 1 | 0 | 0 | 0.023s
+| CommandeTest | 11 | 0 | 0 | 0.389s
+| DnsAppTest | 3 | 0 | 0 | 0.035s
+| DnsItemTest | 7 | 0 | 0 | 0.008s
+| DnsTest | 13 | 0 | 0 | 0.449s
+| DnsTuiTest | 14 | 0 | 0 | 0.153s
+| NomMachineTest | 11 | 0 | 0 | 0.021s
+| *TOTAL* | *69* | *0* | *0* | *1.409s*
+|===
 
 ---
 
@@ -262,7 +268,7 @@ Les entrées `pikachu.uvsq.fr` et `serveur.exemple.fr` ont été ajoutées lors 
 ## 7. Historique Git
 
 ```
-commit f4d2b1e - Documentation finale du projet
+commit 6256654 - Documentation finale du projet
 commit 3e489a3 - Update App.java pour deleguer a DnsApp
 commit 186bd20 - Partie 5: DnsTUI et DnsApp - Application complete
 commit c9facf9 - Partie 4: Pattern Commande et implementations
